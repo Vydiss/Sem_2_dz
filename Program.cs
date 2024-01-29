@@ -74,3 +74,40 @@
 //     }
 //     Console.WriteLine($"{max}");
 // }
+
+
+// Задача 4: Напишите программу, которая на вход
+// принимает натуральное число N, а на выходе
+// показывает его цифры через запятую.
+
+// Console.Write("Введите натуральное число: ");
+// int N = Convert.ToInt32(Console.ReadLine());
+// int i = 10;
+// if (N < i)
+// {
+//     Console.Write($"{N}");
+// }
+// else
+// {
+//     while (N / i != 0)
+//     {
+//         i *= 10;
+//     }
+//     i /= 10;
+//     int result = 0;
+//     while (i > 0)
+//     {
+//         result = N / i;
+//         N = N - (result * i);
+//         if (i == 1)
+//         {
+//             Console.Write($"{result}");
+//         }
+//         else
+//         {
+//             Console.Write($"{result}, ");
+//         }
+//         i /= 10;
+//     }
+// }
+// Console.WriteLine();
